@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FacebookLoginSuite">
+<test name="logonTest">
+<parameter name="email" value="test123@gmail.com"/>
+<parameter name="pass" value="test123"/>
+
+<classes >
+<class name="Assignment_SeleniumWebdriver.Pr16ParameterdFacebooklogin"/>
+</classes>
+</test>
+</suite> 
