@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExerciseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GroupTesting(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Assignment_SeleniumWebdriver.Pr17_testngGroup_Ex">
+        <methods>
+          <include name="searchProductTest"/>
+        </methods>
+      </class> <!-- Assignment_SeleniumWebdriver.Pr17_testngGroup_Ex -->
+    </classes>
+  </test> <!-- GroupTesting(failed) -->
+</suite> <!-- Failed suite [AutomationExerciseSuite] -->

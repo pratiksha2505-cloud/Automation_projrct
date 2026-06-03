@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FacebookLoginSuite]">
+  <test thread-count="5" name="logonTest(failed)">
+    <parameter name="pass" value="test123"/>
+    <parameter name="email" value="test123@gmail.com"/>
+    <classes>
+      <class name="Assignment_SeleniumWebdriver.Pr16ParameterdFacebooklogin">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Assignment_SeleniumWebdriver.Pr16ParameterdFacebooklogin -->
+    </classes>
+  </test> <!-- logonTest(failed) -->
+</suite> <!-- Failed suite [FacebookLoginSuite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="loginSuite">
+
+<test name="loginTest">
+<parameter name="url" value="https://practicetestautomation.com/practice-test-login/"></parameter>
+<parameter name="username" value="student"></parameter>
+<parameter name="password" value="Password123"></parameter>
+
+<classes>
+<class name="Parameters.LoginParameterTest"></class>
+</classes>
+</test>
+</suite>

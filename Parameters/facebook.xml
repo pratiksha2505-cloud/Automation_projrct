@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FacebookSuite">
+<test name="test1">
+<parameter name="url" value="https://www.facebook.com"/>
+<classes>
+<class name="Parameters.FacebookLogin"></class>
+</classes>
+</test>
+
+</suite>
